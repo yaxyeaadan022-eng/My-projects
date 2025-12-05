@@ -1,0 +1,65 @@
+/* Text properties */
+/*1 styling */
+/*2 Spacing */
+/*3 Family */
+/*4 Colors */
+/*5 Size */
+
+/*..............styling........*/
+/* font-weight */
+/* font-style */
+/* text-decoration */
+/* text-transform */
+/* list-style */
+
+/*..............Spacing........*/
+/* line-height */
+/* letter-spacing */
+/* text-align */
+
+
+/*..............Family........*/
+/* generic fonts */
+/* google */
+/* custom fonts */
+
+/*..............Colors........*/
+/* named color */
+/* rgb color */
+/* rgba color */
+/* hex color */
+/* hsl color */
+/* hsla color */
+/*..............Size........*/
+/* font-size */
+/* size unit */
+/* px , em, rem, point, cm , mm, vh, vw , 100% */
+
+
+
+h1{
+    text-align: center;
+    text-decoration: underline blue ;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 2;
+    letter-spacing: 2px;
+    font-family:UnifrakturMaguntia;
+    color: khaki;
+    background-color: #333;
+}
+hr{
+    border: 40px solid red;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+p{
+    text-align: justify;
+    line-height: 2rem;
+    font-family: 'Playwrite US Trad Guides', serif;
+}
+ul{
+    list-style: square;
+    line-height: 2;
+}
