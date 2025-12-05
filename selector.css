@@ -1,0 +1,73 @@
+/* Selectors */
+/* 1 Basic selectors */
+/* 2 Pseudo-class */
+/* 3 Combinator selector */
+/* 4 Pseudo-element */
+
+/* 1 Basic selectors */
+/* 1 Element selector or type selector */
+/* 2 Group Selector */
+/* 3 Class Selector */
+/* 4 ID Selector */
+/* 5 Universal Selector */
+
+/* Pseudo- Class */
+
+
+h1{
+    color: blue;  element selector
+}
+
+ h1, p, ul{
+    color: green; group selector
+    
+    
+} 
+.para{
+    color: red; class selector
+}
+#para{
+    color: purple; id selector
+}
+
+*{
+    color: orange; universal selector
+}
+
+
+/* 2 Pseudo-element (a) */
+/* 1 state */
+/* 1.1 a:link, a:visite , a:hover , a:active */
+/* 2 Condition */
+/* 2.1 li:first-child, li:last-child , li:nth-child(n)*/
+
+/* 1.1 a:link, a:visite , a:hover , a:active */
+a:link{
+    color: brown;
+}
+a:visited{
+    color: gold;
+}
+a:active{
+    color: blue;}
+/* }
+a:hover{
+    color: white;
+    background-color: black;
+    padding: 4px;
+} */
+
+/* :end */
+/* 2.1 li:first-child, li:last-child , li:nth-child(n)*/
+
+/* li:first-child{
+    color: red;
+}
+li:last-child{
+    color: green; */
+/* } */
+li:nth-child(2n){
+    color: white;
+    background-color: rgb(160, 10, 10);
+}
+/* :end */
